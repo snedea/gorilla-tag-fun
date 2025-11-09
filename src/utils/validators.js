@@ -185,7 +185,7 @@ export function sanitizeString(str) {
  * @returns {Object} Validation result {valid: boolean, message: string}
  */
 export function validatePlayerName(name) {
-    if (!name || typeof name !== 'string') {
+    if (name === null || name === undefined || typeof name !== 'string') {
         return { valid: false, message: 'Name is required' };
     }
 

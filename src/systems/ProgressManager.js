@@ -402,12 +402,22 @@ export default class ProgressManager {
    */
   importProgress(data) {
     try {
-      if (data.persistent) {
-        this.persistentData = {
-          ...this.getDefaultPersistentData(),
-          ...data.persistent
-        };
+      // Validate data structure
+      if (!data || typeof data !== 'object') {
+        console.warn('ProgressManager: Invalid import data - not an object');
+        return false;
       }
+
+      // Check if data has valid structure (should have persistent property)
+      if (!data.persistent || typeof data.persistent !== 'object') {
+        console.warn('ProgressManager: Invalid import data - missing persistent data');
+        return false;
+      }
+
+      this.persistentData = {
+        ...this.getDefaultPersistentData(),
+        ...data.persistent
+      };
 
       this.saveProgress();
       return true;

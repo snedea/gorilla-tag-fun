@@ -247,12 +247,31 @@ export default class MathEngine {
    * @returns {string} Sanitized input
    */
   sanitizeInput(input) {
+    // Handle null, undefined, or empty input
+    if (input === null || input === undefined || input === '') {
+      return '';
+    }
+
     if (typeof input === 'number') {
       return input.toString();
     }
 
     // Remove whitespace and non-numeric characters except negative sign
-    return input.toString().trim().replace(/[^0-9-]/g, '');
+    const cleaned = input.toString().trim().replace(/[^0-9-]/g, '');
+
+    // Ensure minus only at the beginning
+    if (cleaned.includes('-')) {
+      const firstMinusIndex = cleaned.indexOf('-');
+      if (firstMinusIndex === 0) {
+        // Minus at start - remove any additional minus signs
+        return '-' + cleaned.slice(1).replace(/-/g, '');
+      } else {
+        // Minus not at start - remove all minus signs
+        return cleaned.replace(/-/g, '');
+      }
+    }
+
+    return cleaned;
   }
 
   /**
