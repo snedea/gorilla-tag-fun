@@ -1,0 +1,458 @@
+{
+  "easy": [
+    {
+      "id": "add_easy_001",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 0,
+      "maxValue": 10,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "add_easy_002",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla found {a} bananas. Then found {b} more. How many total?",
+      "minValue": 0,
+      "maxValue": 10,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "add_easy_003",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 5,
+      "maxValue": 15,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "sub_easy_001",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 0,
+      "maxValue": 10,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "sub_easy_002",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "The gorilla had {a} bananas and ate {b}. How many are left?",
+      "minValue": 0,
+      "maxValue": 10,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "add_easy_004",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "There are {a} vines here and {b} vines there. How many vines in total?",
+      "minValue": 0,
+      "maxValue": 10,
+      "visualHint": true,
+      "hintType": "vines"
+    },
+    {
+      "id": "add_easy_005",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 0,
+      "maxValue": 20,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_easy_003",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 5,
+      "maxValue": 20,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_easy_006",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla swung on {a} vines and then {b} more. How many vines total?",
+      "minValue": 0,
+      "maxValue": 10,
+      "visualHint": true,
+      "hintType": "vines"
+    },
+    {
+      "id": "sub_easy_004",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "There were {a} bananas in the tree. The gorilla picked {b}. How many remain?",
+      "minValue": 5,
+      "maxValue": 15,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "add_easy_007",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 3,
+      "maxValue": 12,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "add_easy_008",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla collected {a} bananas in the morning and {b} bananas in the afternoon. How many bananas did the gorilla collect?",
+      "minValue": 2,
+      "maxValue": 10,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "sub_easy_005",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 3,
+      "maxValue": 15,
+      "visualHint": true,
+      "hintType": "bananas"
+    },
+    {
+      "id": "add_easy_009",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 1,
+      "maxValue": 18,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_easy_006",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "The gorilla saw {a} other gorillas. Then {b} swung away. How many gorillas are left?",
+      "minValue": 5,
+      "maxValue": 12,
+      "visualHint": true,
+      "hintType": "blocks"
+    }
+  ],
+  "medium": [
+    {
+      "id": "add_medium_001",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 10,
+      "maxValue": 25,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_002",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla collected {a} bananas from one tree and {b} from another. How many bananas total?",
+      "minValue": 10,
+      "maxValue": 30,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_medium_001",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 10,
+      "maxValue": 25,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_003",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 15,
+      "maxValue": 35,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_medium_002",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "There were {a} vines in the jungle. {b} broke during a storm. How many vines are left?",
+      "minValue": 15,
+      "maxValue": 30,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_004",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla swung {a} times in the morning and {b} times in the evening. How many total swings?",
+      "minValue": 10,
+      "maxValue": 25,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_005",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 20,
+      "maxValue": 40,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_medium_003",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 20,
+      "maxValue": 35,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_006",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The jungle has {a} tall trees and {b} short trees. How many trees are there in total?",
+      "minValue": 12,
+      "maxValue": 28,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_medium_004",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "The gorilla family had {a} bananas. They shared {b} with friends. How many do they have now?",
+      "minValue": 18,
+      "maxValue": 32,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_007",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 18,
+      "maxValue": 45,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_medium_005",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 15,
+      "maxValue": 40,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_008",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "One gorilla has {a} leaves and another has {b} leaves. How many leaves do they have together?",
+      "minValue": 14,
+      "maxValue": 33,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_medium_006",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "The gorilla counted {a} butterflies. {b} flew away. How many butterflies are left?",
+      "minValue": 20,
+      "maxValue": 38,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_medium_009",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 22,
+      "maxValue": 50,
+      "visualHint": false,
+      "hintType": "number-line"
+    }
+  ],
+  "hard": [
+    {
+      "id": "add_hard_001",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 25,
+      "maxValue": 50,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_002",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla walked {a} steps to the river and {b} steps back. How many steps in total?",
+      "minValue": 30,
+      "maxValue": 60,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_hard_001",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 25,
+      "maxValue": 50,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_003",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 35,
+      "maxValue": 65,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_hard_002",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "There were {a} bananas in the grove. The gorilla troop ate {b}. How many bananas remain?",
+      "minValue": 40,
+      "maxValue": 70,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_004",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla found {a} red fruits and {b} yellow fruits. How many fruits did it find?",
+      "minValue": 28,
+      "maxValue": 55,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_005",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 40,
+      "maxValue": 75,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_hard_003",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 35,
+      "maxValue": 65,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_006",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "One jungle path is {a} meters long and another is {b} meters long. What is the total length?",
+      "minValue": 32,
+      "maxValue": 68,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_hard_004",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "The gorilla collected {a} nuts. It buried {b} for later. How many nuts does it still have?",
+      "minValue": 45,
+      "maxValue": 80,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_007",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 38,
+      "maxValue": 85,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_hard_005",
+      "type": "equation",
+      "operation": "subtraction",
+      "template": "{a} - {b} = ?",
+      "minValue": 40,
+      "maxValue": 75,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_008",
+      "type": "word-problem",
+      "operation": "addition",
+      "template": "The gorilla climbed {a} branches up and {b} more branches. How many branches did it climb total?",
+      "minValue": 35,
+      "maxValue": 72,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "sub_hard_006",
+      "type": "word-problem",
+      "operation": "subtraction",
+      "template": "There were {a} leaves on the branch. The wind blew {b} away. How many leaves are still on the branch?",
+      "minValue": 48,
+      "maxValue": 88,
+      "visualHint": false,
+      "hintType": "number-line"
+    },
+    {
+      "id": "add_hard_009",
+      "type": "equation",
+      "operation": "addition",
+      "template": "{a} + {b} = ?",
+      "minValue": 42,
+      "maxValue": 95,
+      "visualHint": false,
+      "hintType": "number-line"
+    }
+  ]
+}

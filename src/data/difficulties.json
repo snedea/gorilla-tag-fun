@@ -1,0 +1,62 @@
+{
+  "easy": {
+    "name": "Easy",
+    "displayName": "Easy Swinger",
+    "description": "Perfect for beginners! Practice adding and subtracting numbers 0-20.",
+    "minValue": 0,
+    "maxValue": 20,
+    "questionsPerLevel": 5,
+    "timeLimit": null,
+    "visualHintsEnabled": true,
+    "accuracyThreshold": 70,
+    "starThresholds": {
+      "1": 60,
+      "2": 80,
+      "3": 95
+    },
+    "pointsPerCorrect": 100,
+    "pointsPerBanana": 10,
+    "color": "#4CAF50",
+    "icon": "🍌"
+  },
+  "medium": {
+    "name": "Medium",
+    "displayName": "Jungle Explorer",
+    "description": "Ready for a challenge! Work with numbers 0-50.",
+    "minValue": 0,
+    "maxValue": 50,
+    "questionsPerLevel": 5,
+    "timeLimit": null,
+    "visualHintsEnabled": false,
+    "accuracyThreshold": 75,
+    "starThresholds": {
+      "1": 60,
+      "2": 80,
+      "3": 95
+    },
+    "pointsPerCorrect": 150,
+    "pointsPerBanana": 15,
+    "color": "#FF9800",
+    "icon": "🌴"
+  },
+  "hard": {
+    "name": "Hard",
+    "displayName": "Math Master",
+    "description": "For true math champions! Tackle numbers up to 100.",
+    "minValue": 0,
+    "maxValue": 100,
+    "questionsPerLevel": 5,
+    "timeLimit": null,
+    "visualHintsEnabled": false,
+    "accuracyThreshold": 80,
+    "starThresholds": {
+      "1": 60,
+      "2": 80,
+      "3": 95
+    },
+    "pointsPerCorrect": 200,
+    "pointsPerBanana": 20,
+    "color": "#F44336",
+    "icon": "🏆"
+  }
+}
